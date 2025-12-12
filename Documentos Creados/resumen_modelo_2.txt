@@ -1,0 +1,102 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               Utilidad   R-squared:                       0.913
+Model:                            OLS   Adj. R-squared:                  0.913
+Method:                 Least Squares   F-statistic:                 1.370e+05
+Date:                Thu, 04 Dec 2025   Prob (F-statistic):               0.00
+Time:                        19:59:52   Log-Likelihood:            -8.1343e+06
+No. Observations:             1000000   AIC:                         1.627e+07
+Df Residuals:                  999922   BIC:                         1.627e+07
+Df Model:                          77                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const      -4160.1861      0.825  -5042.789      0.000   -4161.803   -4158.569
+x1             6.9209     11.272      0.614      0.539     -15.171      29.013
+x2            -7.9150      8.223     -0.963      0.336     -24.032       8.202
+x3            -4.5695      8.460     -0.540      0.589     -21.150      12.011
+x4           -93.7207      8.041    -11.656      0.000    -109.480     -77.961
+x5          -712.0458      8.042    -88.537      0.000    -727.809    -696.283
+x6            95.5047      7.617     12.539      0.000      80.576     110.433
+x7         -1076.4296      7.612   -141.413      0.000   -1091.349   -1061.510
+x8           666.3742      7.615     87.511      0.000     651.450     681.299
+x9           838.4402      7.613    110.127      0.000     823.518     853.362
+x10          962.9196      7.598    126.731      0.000     948.027     977.812
+x11          -55.9626      7.606     -7.358      0.000     -70.870     -41.055
+x12           -2.8769      9.869     -0.292      0.771     -22.220      16.466
+x13           -3.2804      4.949     -0.663      0.507     -12.980       6.419
+x14           -3.4738      5.046     -0.688      0.491     -13.365       6.417
+x15            0.9425      4.871      0.194      0.847      -8.604      10.489
+x16            2.5715      4.867      0.528      0.597      -6.967      12.110
+x17        -2142.9542      4.691   -456.781      0.000   -2152.149   -2133.759
+x18           -0.3994      4.696     -0.085      0.932      -9.603       8.804
+x19            3.5298      4.696      0.752      0.452      -5.675      12.735
+x20           -0.1916      4.697     -0.041      0.967      -9.397       9.013
+x21           -7.1630      4.693     -1.526      0.127     -16.362       2.036
+x22           -1.9290      4.699     -0.411      0.681     -11.138       7.280
+x23            3.6814      4.809      0.766      0.444      -5.743      13.106
+x24            8.4306      3.260      2.586      0.010       2.041      14.820
+x25            3.7343      2.989      1.250      0.211      -2.123       9.592
+x26           -7.5086      2.984     -2.517      0.012     -13.356      -1.661
+x27           -0.1376      2.683     -0.051      0.959      -5.397       5.122
+x28            1.9486      2.685      0.726      0.468      -3.314       7.212
+x29        -1285.9491      2.686   -478.725      0.000   -1291.214   -1280.684
+x30           -2.0970      2.686     -0.781      0.435      -7.361       3.167
+x31            3.0723      2.688      1.143      0.253      -2.196       8.340
+x32            0.0200      2.690      0.007      0.994      -5.252       5.291
+x33           -4.5717      5.288     -0.864      0.387     -14.937       5.793
+x34           -0.0024      3.144     -0.001      0.999      -6.164       6.159
+x35            8.4704      3.142      2.696      0.007       2.313      14.628
+x36           -0.9845      2.861     -0.344      0.731      -6.592       4.623
+x37        -1226.5620      2.861   -428.701      0.000   -1232.170   -1220.954
+x38           -1.0205      2.859     -0.357      0.721      -6.624       4.583
+x39            1.5614      2.859      0.546      0.585      -4.042       7.165
+x40           -1.0622      2.859     -0.372      0.710      -6.665       4.541
+x41           -0.3034      2.863     -0.106      0.916      -5.915       5.308
+x42           -1.0195      4.401     -0.232      0.817      -9.645       7.606
+x43           -1.3715      2.852     -0.481      0.631      -6.961       4.218
+x44          174.5844      2.539     68.768      0.000     169.609     179.560
+x45         1306.4481      2.540    514.345      0.000    1301.470    1311.426
+x46          648.0259      2.541    255.047      0.000     643.046     653.006
+x47         -273.6228      2.539   -107.752      0.000    -278.600    -268.646
+x48          424.2188      2.540    167.029      0.000     419.241     429.197
+x49         -553.1657      2.544   -217.425      0.000    -558.152    -548.179
+x50           -1.6817      4.403     -0.382      0.703     -10.312       6.948
+x51          185.0177      2.541     72.822      0.000     180.038     189.997
+x52          535.0560      2.542    210.490      0.000     530.074     540.038
+x53           -2.3792      2.542     -0.936      0.349      -7.362       2.604
+x54          540.3158      2.539    212.834      0.000     535.340     545.292
+x55            3.4149      2.538      1.346      0.178      -1.559       8.389
+x56          578.4723      2.543    227.483      0.000     573.488     583.456
+x57         -908.7382      3.302   -275.197      0.000    -915.210    -902.266
+x58          597.1668      2.182    273.704      0.000     592.891     601.443
+x59           64.0784      2.187     29.306      0.000      59.793      68.364
+x60          594.3704      2.184    272.170      0.000     590.090     598.651
+x61          -70.7800      2.183    -32.421      0.000     -75.059     -66.501
+x62           29.7656      2.184     13.631      0.000      25.486      34.045
+x63         -607.9740      3.301   -184.157      0.000    -614.445    -601.503
+x64          893.1416      2.183    409.054      0.000     888.862     897.421
+x65          410.1702      2.183    187.908      0.000     405.892     414.449
+x66          559.7175      2.180    256.801      0.000     555.446     563.989
+x67           73.4459      2.181     33.672      0.000      69.171      77.721
+x68         -962.9071      3.299   -291.876      0.000    -969.373    -956.441
+x69         -560.7672      2.183   -256.854      0.000    -565.046    -556.488
+x70          184.4947      2.182     84.535      0.000     180.217     188.772
+x71         -176.6114      2.184    -80.866      0.000    -180.892    -172.331
+x72         -613.9050      3.301   -185.994      0.000    -620.374    -607.436
+x73         -890.2786      2.183   -407.844      0.000    -894.557    -886.000
+x74           69.7399      2.182     31.956      0.000      65.462      74.017
+x75         -970.4610      3.300   -294.112      0.000    -976.928    -963.994
+x76          179.0140      2.184     81.959      0.000     174.733     183.295
+x77          -62.2675      3.300    -18.867      0.000     -68.736     -55.799
+==============================================================================
+Omnibus:                    74942.552   Durbin-Watson:                   1.995
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           327088.140
+Skew:                          -0.250   Prob(JB):                         0.00
+Kurtosis:                       5.757   Cond. No.                         59.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+Utilidad ≈ -78.61055248186221 + 53.1449 * OXIDO_COSTO + -57.7214 * CHATARRA_COSTO + -37.0827 * SULFURICO_COSTO + -432.1186 * FERROSO_PRECIO + -3283.9623 * FERRICO_PRECIO + 0.0331 * cantidad_oxido + -0.3728 * cantidad_sulfurico + 0.2310 * cantidad_chatarra + 2902.6345 * coeficiente_sulfurico + 3334.5194 * coeficiente_chatarra + -194.0195 * coeficiente_ferrico + -15.8596 * OXIDO_COSTO^2 + -30.6258 * OXIDO_COSTO CHATARRA_COSTO + -35.4063 * OXIDO_COSTO SULFURICO_COSTO + 5.6514 * OXIDO_COSTO FERROSO_PRECIO + 15.4255 * OXIDO_COSTO FERRICO_PRECIO + -1.0017 * OXIDO_COSTO cantidad_oxido + -0.0002 * OXIDO_COSTO cantidad_sulfurico + 0.0017 * OXIDO_COSTO cantidad_chatarra + -0.8952 * OXIDO_COSTO coeficiente_sulfurico + -33.4451 * OXIDO_COSTO coeficiente_chatarra + -9.0227 * OXIDO_COSTO coeficiente_ferrico + 37.5515 * CHATARRA_COSTO^2 + 126.2567 * CHATARRA_COSTO SULFURICO_COSTO + 34.6625 * CHATARRA_COSTO FERROSO_PRECIO + -69.8268 * CHATARRA_COSTO FERRICO_PRECIO + -0.0001 * CHATARRA_COSTO cantidad_oxido + 0.0015 * CHATARRA_COSTO cantidad_sulfurico + -0.9985 * CHATARRA_COSTO cantidad_chatarra + -16.2734 * CHATARRA_COSTO coeficiente_sulfurico + 23.8255 * CHATARRA_COSTO coeficiente_chatarra + 0.1549 * CHATARRA_COSTO coeficiente_ferrico + -52.4905 * SULFURICO_COSTO^2 + -0.0237 * SULFURICO_COSTO FERROSO_PRECIO + 83.2699 * SULFURICO_COSTO FERRICO_PRECIO + -0.0008 * SULFURICO_COSTO cantidad_oxido + -0.9945 * SULFURICO_COSTO cantidad_sulfurico + -0.0008 * SULFURICO_COSTO cantidad_chatarra + 12.6640 * SULFURICO_COSTO coeficiente_sulfurico + -8.6143 * SULFURICO_COSTO coeficiente_chatarra + -2.4598 * SULFURICO_COSTO coeficiente_ferrico + -4.5450 * FERROSO_PRECIO^2 + -8.4369 * FERROSO_PRECIO FERRICO_PRECIO + 0.0906 * FERROSO_PRECIO cantidad_oxido + 0.6775 * FERROSO_PRECIO cantidad_sulfurico + 0.3363 * FERROSO_PRECIO cantidad_chatarra + -1418.4908 * FERROSO_PRECIO coeficiente_sulfurico + 2200.2774 * FERROSO_PRECIO coeficiente_chatarra + -2867.8249 * FERROSO_PRECIO coeficiente_ferrico + -7.4998 * FERRICO_PRECIO^2 + 0.0960 * FERRICO_PRECIO cantidad_oxido + 0.2774 * FERRICO_PRECIO cantidad_sulfurico + -0.0012 * FERRICO_PRECIO cantidad_chatarra + 2801.5402 * FERRICO_PRECIO coeficiente_sulfurico + 17.7263 * FERRICO_PRECIO coeficiente_chatarra + 3001.1999 * FERRICO_PRECIO coeficiente_ferrico + -0.0000 * cantidad_oxido^2 + 0.0000 * cantidad_oxido cantidad_sulfurico + 0.0000 * cantidad_oxido cantidad_chatarra + 0.2692 * cantidad_oxido coeficiente_sulfurico + -0.0321 * cantidad_oxido coeficiente_chatarra + 0.0135 * cantidad_oxido coeficiente_ferrico + -0.0000 * cantidad_sulfurico^2 + 0.0000 * cantidad_sulfurico cantidad_chatarra + 0.1858 * cantidad_sulfurico coeficiente_sulfurico + 0.2540 * cantidad_sulfurico coeficiente_chatarra + 0.0333 * cantidad_sulfurico coeficiente_ferrico + -0.0000 * cantidad_chatarra^2 + -0.2542 * cantidad_chatarra coeficiente_sulfurico + 0.0837 * cantidad_chatarra coeficiente_chatarra + -0.0802 * cantidad_chatarra coeficiente_ferrico + -2057.2091 * coeficiente_sulfurico^2 + -4032.4844 * coeficiente_sulfurico coeficiente_chatarra + 316.3235 * coeficiente_sulfurico coeficiente_ferrico + -3253.9154 * coeficiente_chatarra^2 + 811.3048 * coeficiente_chatarra coeficiente_ferrico + -208.9582 * coeficiente_ferrico^2

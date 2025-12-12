@@ -1,0 +1,16 @@
+{
+    "intercept": 2281.5734088839345,
+    "terms": {
+        "OXIDO_COSTO": -5004.097984769361,
+        "CHATARRA_COSTO": -5006.918212363484,
+        "SULFURICO_COSTO": -4985.160691500595,
+        "FERROSO_PRECIO": 4042.9593938104144,
+        "FERRICO_PRECIO": 1492.7798620486772,
+        "cantidad_oxido": -0.597514504025992,
+        "cantidad_sulfurico": 0.13686211642114268,
+        "cantidad_chatarra": -0.18076262463184586,
+        "coeficiente_sulfurico": 688.2608188554391,
+        "coeficiente_chatarra": 1111.6157845204857,
+        "coeficiente_ferrico": 63.041418189285594
+    }
+}
